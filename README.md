@@ -1,5 +1,4 @@
-# php-71-migration
-#Sparehire PHP 5.6 to PHP 7.1 migration
+# Sparehire PHP 5.6 to PHP 7.1 migration
 
 ## Default extensions:
 calendar
