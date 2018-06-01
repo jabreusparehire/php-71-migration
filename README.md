@@ -73,12 +73,12 @@ PHP 7.1 should run smooth if all required extensions are enabled. In case any un
 	- Use next step instructions to rollback to php5.6;
 	- Run `php -m` again to see the current installed extensions and compare both lists.
 
-- You can always rollback the installation to PHP5.6 with:
-	- Run `update-alternatives --set php /usr/bin/php5.6` (advise to keep php 5.6 around in case of necessary rollback)
-	- Update apache:
-		- Run `a2dismod php7.1`
-		- Run `a2enmod php5.6`
-		- Run `service apache2 restart`
+You can always rollback the installation to PHP5.6 with:
+- Run `update-alternatives --set php /usr/bin/php5.6` (advise to keep php 5.6 around in case of necessary rollback)
+- Update apache:
+	- Run `a2dismod php7.1`
+	- Run `a2enmod php5.6`
+	- Run `service apache2 restart`
 
 ## Remarks
 Those procedures were tested in Ubuntu 16.4 environment and some commands might vary in AmazonLinux CentOS. One difference notable is the php libs notation. 
