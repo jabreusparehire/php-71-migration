@@ -1,57 +1,57 @@
 # Sparehire PHP 5.6 to PHP 7.1 migration
 
 ## Default extensions:
-calendar
-Core
-ctype
-date
-exif
-fileinfo
-filter
-ftp
-gettext
-hash
-iconv
-imagick
-json
-libxml
-openssl
-pcntl
-pcre
-Phar
-posix
-readline
-Reflection
-session
-shmop
-SimpleXML
-sockets
-sodium
-SPL
-standard
-sysvmsg
-sysvsem
-sysvshm
-tokenizer
-wddx
-xml
-xmlreader
-xmlwriter
-xsl
-Zend OPcache
-zlib
+- calendar
+- Core
+- ctype
+- date
+- exif
+- fileinfo
+- filter
+- ftp
+- gettext
+- hash
+- iconv
+- imagick
+- json
+- libxml
+- openssl
+- pcntl
+- pcre
+- Phar
+- posix
+- readline
+- Reflection
+- session
+- shmop
+- SimpleXML
+- sockets
+- sodium
+- SPL
+- standard
+- sysvmsg
+- sysvsem
+- sysvshm
+- tokenizer
+- wddx
+- xml
+- xmlreader
+- xmlwriter
+- xsl
+- Zend OPcache
+- zlib
 
 ## Required extensions for SH
-curl		php71-curl
-dom		php71-dom
-gd		php71-gd
-imagick		php71-imagick
-json		php71-json
-mbstring	php71-mbstring
-mysql		php71-mysql
-pdo		php71-pdo
-pdo_mysql*	
-pecl_memcached	php71-pecl-imagick -y
+- curl		php71-curl
+- dom		php71-dom
+- gd		php71-gd
+- imagick		php71-imagick
+- json		php71-json
+- mbstring	php71-mbstring
+- mysql		php71-mysql
+- pdo		php71-pdo
+- pdo_mysql (comes with mysql)	
+- pecl_memcached	php71-pecl-imagick -y
 
 ## Instalation guide
 In order to have both php 5.6 and 7.1 in the same environment:
