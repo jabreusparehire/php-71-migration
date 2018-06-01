@@ -77,5 +77,5 @@ PHP 7.1 should run smooth if all required extensions are enabled. In case any un
 		- Run `service apache2 restart`
 
 ## Remarks
-Those procedures were tested in Ubuntu 16.4 environment and some commands might vary in AmazonLinux CentOS. One difference notable is the php libs notation. In Ubuntu we use php5.6-* and Amazon php56-* that 
+Those procedures were tested in Ubuntu 16.4 environment and some commands might vary in AmazonLinux CentOS. One difference notable is the php libs notation. 
  
