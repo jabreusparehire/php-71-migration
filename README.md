@@ -54,6 +54,10 @@
 - pecl_memcached	php71-pecl-imagick -y
 
 ## Instalation guide
+Local installation pre steps procedure in Ubuntu:
+- `add-apt-repository ppa:ondrej/php`
+- `apt-get update`
+
 In order to have both php 5.6 and 7.1 in the same environment:
 - After installing php7.1 and extensions
 - Run `update-alternatives --set php /usr/bin/php7.1` (advise to keep php 5.6 around in case of necessary rollback)
