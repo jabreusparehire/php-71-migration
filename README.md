@@ -57,6 +57,7 @@
 Local installation pre steps procedure in Ubuntu:
 - `add-apt-repository ppa:ondrej/php`
 - `apt-get update`
+- `apt-get install php7.1` 
 
 In order to have both php 5.6 and 7.1 in the same environment:
 - After installing php7.1 and extensions
